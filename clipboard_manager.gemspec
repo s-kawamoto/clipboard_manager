@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "clipboard_manager"
   spec.version       = ClipboardManager::VERSION
   spec.authors       = ["s-kawamoto"]
-  spec.email         = ["satoshi.kawamoto@nacl-med.co.jp"]
+  spec.email         = ["s.kawamoto.contact@gmail.com"]
 
   spec.summary       = %q{}
   spec.description   = %q{}
