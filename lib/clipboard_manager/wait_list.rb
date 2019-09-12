@@ -26,6 +26,11 @@ class ClipboardManager
       Clipboard.copy(@sentences.first.content)
     end
 
+    def clear
+      @sentences.clear
+      @history.clear
+    end
+
     class Sentence
       attr_accessor :content, :type
       def initialize(content, type = nil)
