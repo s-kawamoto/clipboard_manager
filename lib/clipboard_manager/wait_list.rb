@@ -1,6 +1,6 @@
 class ClipboardManager
   class WaitList
-    attr_accessor :sentences
+    attr_reader :sentences
 
     def initialize
       @sentences = []
@@ -32,7 +32,7 @@ class ClipboardManager
     end
 
     class Sentence
-      attr_accessor :content, :type
+      attr_reader :content, :type
       def initialize(content, type = nil)
         @content = content
         @type = type
