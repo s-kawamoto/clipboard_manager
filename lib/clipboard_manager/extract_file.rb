@@ -3,6 +3,7 @@ class ClipboardManager
     quote_sentences = []
     quote_flag = false
     File.foreach(file_path) do |clip|
+      clip.chomp!
       case clip
       when /^\s*#/
         # コメント
